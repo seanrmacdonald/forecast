@@ -1,0 +1,12 @@
+<!-- <form action="{{ url_for('form')}}" method="post"> -->
+<h1>Inputs</h1>
+<h4>Initial Value: {{ initial_value }}</h4>
+<h4>Rate: {{ rate }}</h4>
+<h4>Years: {{ years }}</h4>
+<h1>Results</h1>
+<h3>P10 - {{ p10 }}</h3>
+<h3>P50 - {{ p50 }}</h3>
+<h3>P90 - {{ p90 }}</h3>
+<section>
+    <img src="data:image/png;base64, {{ plot_url }}">
+</section>
